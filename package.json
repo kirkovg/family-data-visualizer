@@ -1,0 +1,21 @@
+{
+  "name": "family-data-visualizer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "4.15.4",
+    "gojs": "^1.7.20",
+    "jquery": "3.2.1"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "author": "Gjorgji Kirkov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirkovg/family-data-visualizer"
+  },
+  "license": "FREE"
+}
