@@ -4,7 +4,7 @@ Working project as part of the course User Interfaces @ FCSE
 ## Built with 
 * [Bootstrap](http://getbootstrap.com/)
 * [goJS](https://gojs.net/)
-* [Node.js](http://www.mockapi.io)
+* [Node.js](https://nodejs.org/)
 * [express.js](https://expressjs.com)
 
 ## Authors
