@@ -9,6 +9,8 @@ Working project as part of the course User Interfaces @ FCSE
 
 ## Authors
 * [Gjorgji Kirkov](https://github.com/kirkovg)
+* Marijana Kotoska
+* Dimitar Kuzmanoski
 
 ## How to run
 
@@ -16,6 +18,6 @@ Working project as part of the course User Interfaces @ FCSE
 * go to root directory
 * run `npm install`
 * go to `src/` directory
-* run the `server.js` file
+* run the `server.js` file with `node server.js` command
 * back to root directory
-* open the `index.html` file
+* open the `index.html` file in a browser
