@@ -10,7 +10,6 @@ Working project as part of the course User Interfaces @ FCSE
 ## Authors
 * [Gjorgji Kirkov](https://github.com/kirkovg)
 * Marijana Kotoska
-* Dimitar Kuzmanoski
 
 ## How to run
 * install  [git](https://git-scm.com/downloads)

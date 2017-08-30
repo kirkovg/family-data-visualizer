@@ -109,11 +109,7 @@ app.get('/api/people', function (req, res) {
 });
 
 app.put('/api/people', function (req, res) {
-    console.log("printing request body");
-    console.log(req.body);  // debug purposes
     familyData = req.body;
-    console.log("printing nodeData array");
-    familyData.nodeDataArray.forEach(item => {console.log(item)});  // debug purposes
     res.send("successfully updated family data");
 });
 

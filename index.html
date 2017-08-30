@@ -10,24 +10,43 @@
     <script src="node_modules/gojs/release/go-debug.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/gojs/extensions/DataInspector.js"></script>
-    <script src="src/family-data-visualizer.js"></script>       <!-- editable-->
-    <!--TODO: Create a new view of the data-->
+    <script src="src/family-data-visualizer.js"></script>
+    <script src="src/dom-tree-data-visualizer.js"></script>
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div id="family-data-diagram" style="border: solid 1px black; height:100vh" class="col-lg-9">
-
-        </div>
-        <div class="col-lg-3">
+        <div id="family-data-diagram" style="border: solid 1px black; height:100vh" class="col-lg-9"></div>
+        <div class="col-lg-3" id="family-data-options">
             <br/>
             <div id="dataInspector"></div>
             <br/>
-            <button id="SaveButton" onclick="updateFamilyData()" class="btn btn-success btn-block">
+            <button id="SaveButton" onclick="FamilyDataVisualizer.updateFamilyData()" class="btn btn-success btn-block">
                 Save <i class="glyphicon glyphicon-floppy-saved"></i>
             </button>
         </div>
     </div>
+
+    <div class="pull-right" style="margin-top: -50px;">
+        <button class="btn btn-warning" onclick="switchViews()">Switch views</button>
+        <span id="activeView" hidden>familyData</span>
+    </div>
 </div>
+<script>
+    function switchViews() {
+        if ($("#activeView").text() === "familyData") {
+            DomTreeDataVisualizer.init();
+            $("#activeView").text("domTreeData");
+            $("#family-data-options").hide();
+        } else if ($("#activeView").text() === "domTreeData") {
+
+            // FIXME: On switch to familyDataDiagram do not reload the whole page.
+            //FamilyDataVisualizer.init();
+            window.location.reload();
+            $("#activeView").text("familyData");
+            $("#family-data-options").show();
+        }
+    }
+</script>
 </body>
 </html>
