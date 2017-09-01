@@ -1,3 +1,5 @@
+'use strict';
+
 const PATH_TO_DATABASE = '..\\data\\database.db';
 const Datastore = require('nedb');
 const db = new Datastore({ filename: PATH_TO_DATABASE, autoload: true });

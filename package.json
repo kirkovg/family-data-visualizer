@@ -14,9 +14,10 @@
     "node": "4.0.0"
   },
   "author": "Gjorgji Kirkov",
+  "contributors": ["Marijana Kotoska"],
   "repository": {
     "type": "git",
     "url": "https://github.com/kirkovg/family-data-visualizer"
   },
-  "license": "FREE"
+  "license": "The Unlicense"
 }
