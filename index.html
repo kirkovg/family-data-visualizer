@@ -39,9 +39,6 @@
             $("#activeView").text("domTreeData");
             $("#family-data-options").hide();
         } else if ($("#activeView").text() === "domTreeData") {
-
-            // FIXME: On switch to familyDataDiagram do not reload the whole page.
-            //FamilyDataVisualizer.init();
             window.location.reload();
             $("#activeView").text("familyData");
             $("#family-data-options").show();

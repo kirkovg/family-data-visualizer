@@ -23,3 +23,17 @@ Working project as part of the course User Interfaces @ FCSE
 * run the `server.js` file with `node server.js` command
 * back to root directory
 * open the `index.html` file in a browser
+
+## Features
++   First View (Family tree)
+    1. on right-click on an person opens a context menu
+    2. on a left click opens an edit menu for the person's data
+    3. after clicking save it updates the diagram with the newly entered data
+    4. on click and drag of a child to another parent, the structure will update with the new relationship
+    5. on click of switch views button, the view will be changed to the dom-tree-like view of the data
+
++ Second view (DOM Tree)
+    1. at first load the tree and all of its leaves are expanded
+    2. on clicking the minus sign it retracts the children of the leaf that was selected
+    3. on clicking the plus sign it expands the children of the selected leaf
+    4. on click of switch views button, the view will be changed to the family-tree view of the data
