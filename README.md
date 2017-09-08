@@ -1,4 +1,4 @@
-# Family Data Visualizer
+# [Family Data Visualizer](https://github.com/kirkovg/family-data-visualizer)
 Working project as part of the course User Interfaces @ FCSE
 
 ## Built with 
@@ -14,8 +14,8 @@ Working project as part of the course User Interfaces @ FCSE
 ## How to run (step by step)
 * install  [git](https://git-scm.com/downloads)
 * install [node.js](https://nodejs.org/en/download/) and npm
-* clone the project (`git clone https://github.com/kirkovg/family-data-visualizer.git`)
-* go to root directory
+* clone the project (`git clone https://github.com/kirkovg/family-data-visualizer.git`) or download as a zip
+* go to the root directory
 * run `npm install` (this may take a few minutes)
 * go to `src/` directory
 * run the `seed-database.js` file to create the database with the command `node seed-database.js`
